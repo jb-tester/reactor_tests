@@ -11,7 +11,7 @@ public class ReactorDebuggerTestWithCheckpoint {
       .filter(i -> true)
       .checkpoint()
       .map(i -> {
-        //Breakpoint!
+
         return i + 4;
       }).subscribe();
   }
